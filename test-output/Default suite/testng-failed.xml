@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GTask.myyapp.Sanity">
+      <class name="GTask.myyapp.MRIPageclicks">
         <methods>
+          <include name="Videovalidate"/>
           <include name="setup"/>
           <include name="tearDown"/>
-          <include name="homepagecontent"/>
         </methods>
-      </class> <!-- GTask.myyapp.Sanity -->
+      </class> <!-- GTask.myyapp.MRIPageclicks -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
